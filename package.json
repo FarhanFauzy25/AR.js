@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack --mode=production",
     "build:dev": "./node_modules/.bin/webpack --mode=development --progress --watch",
-    "server": "npx http-server -c -1",
+    "server": "https://jsar.herokuapp.com/",
     "prepare": "husky install"
   },
   "files": [
